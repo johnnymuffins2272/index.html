@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>sanji.com — Truth Teller of the Year</title>
+  <meta name="description" content="A fun mini-site featuring two custom anime illustrations: 'Truth Teller of the Year' and 'Gift From a True Friend'." />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: #0a0a0a;
+      background: #f6f8fb;
+      line-height: 1.6;
+    }
+    header {
+      padding: 56px 20px 24px;
+      text-align: center;
+      background: linear-gradient(180deg, #e8f1ff 0%, #f6f8fb 100%);
+      border-bottom: 1px solid #e7eef7;
+    }
+    header h1 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 44px); }
+    header p { margin: 0; opacity: 0.8; }
+    main { max-width: 1080px; margin: 28px auto 80px; padding: 0 20px; }
+    .card {
+      background: white;
+      border: 1px solid #e7eef7;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(10,10,10,0.04);
+      margin-bottom: 28px;
+    }
+    .card img { display: block; width: 100%; height: auto; }
+    .caption { padding: 16px 18px; font-size: 15px; color: #344055; }
+    footer {
+      text-align: center;
+      padding: 36px 20px 64px;
+      color: #5b677a;
+      font-size: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    @media (min-width: 920px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #0ea5e9;
+      color: white;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.02em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">sanji.com</div>
+    <h1>Truth Teller of the Year</h1>
+    <p>A mini-gallery celebrating friendship and honesty — anime style.</p>
+  </header>
+
+  <main>
+    <section class="grid">
+      <figure class="card">
+        <img src="./assets/truth_teller_of_the_year.png" alt="Anime portrait of a smiling man centered, wearing a gold medal, with the title 'Truth Teller of the Year' above." />
+        <figcaption class="caption">
+          <strong>Truth Teller of the Year</strong> — the champ with the gold medal.
+        </figcaption>
+      </figure>
+
+      <figure class="card">
+        <img src="./assets/gift_from_a_true_friend.png" alt="Anime scene of two friends exchanging a bowl of fried rice with the words 'Gift From a True Friend' at the top." />
+        <figcaption class="caption">
+          <strong>Gift From a True Friend</strong> — the legendary fried-rice handoff.
+        </figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 sanji.com — All rights reserved.
+  </footer>
+</body>
+</html>
